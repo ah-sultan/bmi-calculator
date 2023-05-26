@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: 0.6s;
+}
+
+.container{
+    padding: 40px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background: #111438;
+
+}
+
+.bmi-box{
+    padding: 25px;
+    width: 250px;
+    margin: 0 auto;
+    background: #111438;
+    box-shadow: 0px 0px 10px #0e51b9;
+    border-radius: 30px;
+    border: 3px solid #090b20;
+}
+
+.bmi-box .bmi-lebel {
+    font-size: 14px;
+    margin: 10px 0 3px;
+    display: block;
+    color: aliceblue;
+    font-weight: 400px;
+}
+
+.bmi-box .bmi-input {
+	padding: 5px 7px;
+	display: block;
+	width: 100%;
+	font-size: 16px;
+	color: #111438;
+	border-radius: 7px;
+	border: 0;
+	border-bottom: 1px solid #0e51b9;
+}
+
+.bmi-box .bmi-input:focus{
+
+    outline: 0;
+}
+
+.submitBtn {
+	width: 100%;
+	font-size: 16px;
+	color: #fff;
+	border: 0;
+	background: #0e51b9;
+	border: 0;
+	border-radius: 5px;
+    padding: 5px 7px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.bmi-value{
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    transition: 1s;
+    margin-top: 5px;
+}
+
+#textMsg{
+    text-align: center;
+    color: #0e51b9;
+}
